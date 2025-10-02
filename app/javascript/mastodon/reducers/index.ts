@@ -4,6 +4,7 @@ import { loadingBarReducer } from 'react-redux-loading-bar';
 import { combineReducers } from 'redux-immutable';
 
 import { reducer as alertsReducer } from '../actions/alerts';
+import { reducer as dropdownMenuReducer } from '../actions/dropdown_menu';
 
 import { accountsReducer } from './accounts';
 import { accountsFamiliarFollowersReducer } from './accounts_familiar_followers';
@@ -13,7 +14,6 @@ import { composeReducer } from './compose';
 import { contextsReducer } from './contexts';
 import conversations from './conversations';
 import custom_emojis from './custom_emojis';
-import { dropdownMenuReducer } from './dropdown_menu';
 import filters from './filters';
 import height_cache from './height_cache';
 import history from './history';
