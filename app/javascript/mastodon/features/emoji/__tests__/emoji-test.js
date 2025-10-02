@@ -1,4 +1,4 @@
-import emojify from '../emoji';
+import { emojify } from '../emoji';
 
 describe('emoji', () => {
   describe('.emojify', () => {

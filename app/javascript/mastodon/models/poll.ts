@@ -1,7 +1,7 @@
 import escapeTextContentForBrowser from 'escape-html';
 
 import type { ApiPollJSON, ApiPollOptionJSON } from 'mastodon/api_types/polls';
-import emojify from 'mastodon/features/emoji/emoji';
+import { emojify } from 'mastodon/features/emoji/emoji';
 
 import { CustomEmojiFactory, makeEmojiMap } from './custom_emoji';
 import type { CustomEmoji, EmojiMap } from './custom_emoji';

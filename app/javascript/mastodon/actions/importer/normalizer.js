@@ -2,7 +2,7 @@ import escapeTextContentForBrowser from 'escape-html';
 
 import { makeEmojiMap } from 'mastodon/models/custom_emoji';
 
-import emojify from '../../features/emoji/emoji';
+import { emojify } from '../../features/emoji/emoji';
 import { expandSpoilers } from '../../initial_state';
 
 const domParser = new DOMParser();

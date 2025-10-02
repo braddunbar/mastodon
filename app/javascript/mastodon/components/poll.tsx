@@ -12,7 +12,7 @@ import CheckIcon from '@/material-icons/400-24px/check.svg?react';
 import { openModal } from 'mastodon/actions/modal';
 import { fetchPoll, vote } from 'mastodon/actions/polls';
 import { Icon } from 'mastodon/components/icon';
-import emojify from 'mastodon/features/emoji/emoji';
+import { emojify } from 'mastodon/features/emoji/emoji';
 import { useIdentity } from 'mastodon/identity_context';
 import { makeEmojiMap } from 'mastodon/models/custom_emoji';
 import type * as Model from 'mastodon/models/poll';

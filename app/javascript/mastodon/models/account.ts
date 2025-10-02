@@ -8,7 +8,7 @@ import type {
   ApiAccountRoleJSON,
   ApiAccountJSON,
 } from 'mastodon/api_types/accounts';
-import emojify from 'mastodon/features/emoji/emoji';
+import { emojify } from 'mastodon/features/emoji/emoji';
 import { unescapeHTML } from 'mastodon/utils/html';
 
 import { CustomEmojiFactory, makeEmojiMap } from './custom_emoji';

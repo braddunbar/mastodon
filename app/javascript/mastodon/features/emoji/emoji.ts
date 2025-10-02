@@ -267,7 +267,7 @@ const emojifyNode = (node: Node, customEmojis: EmojiMap | null) => {
   }
 };
 
-const emojify = (str: string, customEmojis: EmojiMap = {}) => {
+export const emojify = (str: string, customEmojis: EmojiMap = {}) => {
   const wrapper = document.createElement('div');
   wrapper.innerHTML = str;
 
@@ -276,8 +276,6 @@ const emojify = (str: string, customEmojis: EmojiMap = {}) => {
 
   return wrapper.innerHTML;
 };
-
-export default emojify;
 
 interface EmojiMartCustomEmoji {
   id: string;

@@ -9,7 +9,7 @@ import axios from 'axios';
 import { throttle } from 'lodash';
 
 import { timeAgoString } from '../mastodon/components/relative_timestamp';
-import emojify from '../mastodon/features/emoji/emoji';
+import { emojify } from '../mastodon/features/emoji/emoji';
 import loadKeyboardExtensions from '../mastodon/load_keyboard_extensions';
 import { loadLocale, getLocale } from '../mastodon/locales';
 import { loadPolyfills } from '../mastodon/polyfills';

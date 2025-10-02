@@ -14,7 +14,7 @@ import { IconButton } from 'mastodon/components/icon_button';
 import InlineAccount from 'mastodon/components/inline_account';
 import MediaAttachments from 'mastodon/components/media_attachments';
 import { RelativeTimestamp } from 'mastodon/components/relative_timestamp';
-import emojify from 'mastodon/features/emoji/emoji';
+import { emojify } from 'mastodon/features/emoji/emoji';
 
 const mapStateToProps = (state, { statusId }) => ({
   language: state.getIn(['statuses', statusId, 'language']),
